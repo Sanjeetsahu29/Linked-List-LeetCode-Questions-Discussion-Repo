@@ -1,0 +1,2 @@
+# Linked-List-LeetCode-Questions-Discussion-Repo
+This repo is created to put my explanation in easy language to understand the problem statement first &amp; then approach to the solution with proper step-by-step logical thinking behind the approach from the brute-force to optimal solution. And I will also include explanation of the edge cases why this might break our code and counter step to solve it
