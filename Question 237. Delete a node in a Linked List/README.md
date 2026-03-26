@@ -39,3 +39,20 @@ Intuition: Since we cannot delete the current node directly but using this node 
 <br>Simply
 - We replace its value with the next node’s value
 - Then delete the next node instead
+
+<hr>
+
+## Edge Cases & Failure Scenarios
+#### 1. Node is last node
+- Would cause node.next to be null → crash
+- Already guaranteed in problem constraints
+
+#### 2. Duplicate values concern
+- Not applicable (values are unique)
+
+#### 3. Memory leak concern
+In Java:
+- Garbage Collector handles removed node
+  
+In C++:
+- Would need manual delete (important interview point)
