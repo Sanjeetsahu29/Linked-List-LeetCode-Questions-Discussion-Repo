@@ -56,3 +56,14 @@ In Java:
   
 In C++:
 - Would need manual delete (important interview point)
+<hr>
+
+## Complexity Analysis
+Time Complexity
+- O(1) → constant time operation
+  
+Space Complexity
+- O(1) → no extra space used
+
+## Final comment on my solution
+We are not deleting the node — we are transforming it into its next node and deleting that instead
